@@ -1,8 +1,8 @@
 ![scaleconf-deploying-microservices](scaleconf.png)
 
-Deploying microservices to the cloud Medellin 2017
+#Deploying microservices to the cloud Medellin 2017
 
-#Requirements
+##Requirements
 
 
 
