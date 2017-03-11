@@ -3,6 +3,7 @@
 #Deploying microservices to the cloud Medellin 2017
 
 ##Requirements
+* Azure suscription https://azure.microsoft.com/
 
 
 
