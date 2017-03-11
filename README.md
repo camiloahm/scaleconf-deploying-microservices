@@ -1,8 +1,12 @@
+![scaleconf-deploying-microservices](scaleconf.png)
+
 # scaleconf
 Deploying microservices the cloud
 Scaleconf Conference in Medellin 2017
 
-#
+#Requirements
+
+
 
 
 # Docker Tutorial
