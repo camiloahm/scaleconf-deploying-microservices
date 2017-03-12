@@ -25,6 +25,25 @@ Creates a docker-machine inside specific environments depending on the driver (g
 $ docker-machine create -d <driver>
 ```
 
+## Azure driver
+
+```sh
+$ docker-machine create -d azure --azure-ssh-user ops --azure-subscription-id <SubscriptionId> --azure-open-port 80 azuremachine
+```
+You will be asked to login with your account Azure account. The process takes about 5 minutes.
+
+Connect to docker machine
+
+```sh
+$ docker-machine ls
+$ docker-machine env <machine name>
+```
+Let´s deploy our site
+$ docker build -t mynginx .
+$ docker run -d -p 80:80 mynginx
+
+Verify public ip and test again. 
+
 ## Google Cloud driver
 
 To create a compute instance(VM) in google cloud, we need to follow the `gcloud` tools [gcloud install process](https://cloud.google.com/sdk/downloads) for your OS, to deploy from your command line.
@@ -47,10 +66,8 @@ Now let´s install aspnet service. Please go to the folder MyService inside this
 $ docker build -t aspservice .
 $ docker run -it -p 5000:5000 aspservice
 ```
-## Azure driver
-```sh
-$ docker-machine create -d azure --azure-ssh-user ops --azure-subscription-id <SubscriptionId> --azure-open-port 80 machine
-```
+
+
 
 ## Amazon EC2 driver
 To create an EC2 instance in AWS running Docker that we will later command from our local computer, we need the following variables set up : 
