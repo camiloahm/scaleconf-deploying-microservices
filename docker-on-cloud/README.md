@@ -80,5 +80,7 @@ $ docker build -t mynginx .
 $ docker run -d -p 80:80 mynginx
 
 ```
+Go to Google Cloud console and select the virtual machine then active "Allow HTTP traffic"
+
 Now we can check if the cointainer is up go to <http://<google-compute-ip>>
 
