@@ -9,7 +9,7 @@ The `COPY` Directive copies the contents of the `./site` folder to `/usr/share/n
 In order to run this image, we must first build it :
 
 ```sh
-$ docker build -t quick-nginx .
+$ docker build -t microservice .
 ```
 
 Building an image, executes every statement inside of the `Dockerfile` and overlays the resulting file system on top of the previous one.
@@ -17,7 +17,7 @@ Building an image, executes every statement inside of the `Dockerfile` and overl
 This time we run the container in the background with the parameter -d:
 
 ```sh
-$ docker run -d -p 3000:80 quick-nginx
+$ docker run -d -p 3000:80 microservice
 ```
 
 The `-d` flag tells docker to run a "daemonized" container "Run in background".
