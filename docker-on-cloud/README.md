@@ -51,10 +51,16 @@ To create a compute instance(VM) in google cloud, we need to follow the `gcloud`
 After the install process, we can use our google cloud account to create a new machine then connect to it and deploy containers. Let´s deploy our nginx site
 
 ```
-$ gcloud auth login
-$ docker-machine create -d google --google-project <cloud-project> <compute-name>
+$ gcloud beta auth application-default login
+$ docker-machine create -d google --google-project <google-cloud-project-id> <compute-name>
 $ docker build -t mynginx .
 $ docker run -d -p 80:80 mynginx
+
+```
+If you have this error "Error with pre-create check: "google: could not find default credentials." you must follow the json credential steps in the URL or you can use the beta command   
+
+```
+gcloud beta auth application-default login
 
 ```
 
