@@ -58,7 +58,9 @@ export AWS_SUBNET_ID=subnet-xxxxxxxxx
 ```
 
 ```sh
-$ docker-machine create -d amazonec2 aws01
+$ docker-machine create -d amazonec2 awsmachine
+or
+$ docker-machine create --driver amazonec2 --amazonec2-access-key AKI******* --amazonec2-secret-key 8T93C*******  awsmachine
 ```
 
 Now you can deploy containers inside an Amazon´s virtual machine
