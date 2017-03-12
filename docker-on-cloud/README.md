@@ -71,7 +71,7 @@ Now you can deploy containers inside an Amazon´s virtual machine
 $ docker build -t microservice .
 $ docker run -d -p 80:80 microservice
 ```
-Verify public ip and test again. 
+Verify public ip, create and inbound rule for HTTP and test with the public ip. 
 
 
 ## Google Cloud driver
