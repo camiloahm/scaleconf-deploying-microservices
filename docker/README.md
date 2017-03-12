@@ -12,6 +12,26 @@ $ docker ps
 $ docker ps -a
 ```
 
+### Create and start a container 
+```sh
+$ docker run -it <idcontainer>
+
+
+### Create and start a container in background
+```sh
+$ docker run -d <idcontainer>
+
+
+### Create and start a container with port map from local to container
+```sh
+$ docker run -it -p <localport>:<containerport> <idcontainer>
+
+
+### Create and start, but if the container is stop it will be removed 
+```sh
+$ docker run --rm <idcontainer>
+
+
 ### Stopping a container
 ```sh
 $ docker stop <container name>
