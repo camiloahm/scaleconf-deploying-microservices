@@ -46,7 +46,7 @@ Verify public ip and test again.
 
 
 ## Amazon EC2 driver
-To create an EC2 instance in AWS running Docker that we will later command from our local computer, we need the following variables set up : 
+To create an EC2 instance in AWS running Docker that we will later command from our local computer, we need the following variables set up, or you can use the last command: 
 
 ```
 export AWS_ACCESS_KEY_ID=<your aws iam key>
