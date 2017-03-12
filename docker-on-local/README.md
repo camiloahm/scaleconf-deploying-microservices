@@ -1,3 +1,5 @@
+![scaleconf-deploying-microservices](docker.png)
+
 # Docker Tutorial
 
 ## Docker common commands 
