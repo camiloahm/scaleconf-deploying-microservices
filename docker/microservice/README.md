@@ -1,4 +1,4 @@
-#Expose cointainer and build image
+#Expose cointainer,build and run image on local machine
 
 ##Building an image
 We are going to use a super small Linux distribution called Alpine Linux with an Nginx HTTP server.Please check file  "Dockerfile" that is inside this folder
