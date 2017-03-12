@@ -4,7 +4,7 @@
 
 `docker-machine` is a docker tool (docker client) and is one of the docker mechanism to deploy containers to cloud providers
 
-`docker-machine` uses "drivers" to deploy virtual instances in popular cloud providers. Every driver depends on a few configurations to work.
+`docker-machine` uses "drivers https://docs.docker.com/machine/drivers/gce/" to deploy virtual instances in popular cloud providers. Every driver depends on a few configurations to work.
 
 Some useful commands from docker-machine client
 
