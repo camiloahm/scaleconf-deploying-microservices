@@ -1,3 +1,5 @@
+![scaleconf-deploying-microservices](dockermachine.png)
+
 #Expose container in cloud using docker-machine
 
 `docker-machine` is a docker tool (docker client) and is one of the docker mechanism to deploy containers to cloud providers
