@@ -37,13 +37,15 @@ Connect to docker machine
 ```sh
 $ docker-machine ls
 $ docker-machine env <machine name>
+$ docker-machine active 
 ```
 Let´s deploy our site
-$ docker build -t mynginx .
-$ docker run -d -p 80:80 mynginx
 
+```sh
+$ docker build -t microservice .
+$ docker run -d -p 80:80 microservice
+```
 Verify public ip and test again. 
-
 
 ## Amazon EC2 driver
 To create an EC2 instance in AWS running Docker that we will later command from our local computer, we need the following variables set up, or you can use the last command: 
@@ -64,6 +66,12 @@ $ docker-machine create --driver amazonec2 --amazonec2-access-key AKI******* --a
 ```
 
 Now you can deploy containers inside an Amazon´s virtual machine
+
+```sh
+$ docker build -t microservice .
+$ docker run -d -p 80:80 microservice
+```
+Verify public ip and test again. 
 
 
 ## Google Cloud driver
