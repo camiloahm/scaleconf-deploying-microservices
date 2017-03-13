@@ -33,8 +33,17 @@ $ docker push <username>/scaleconf
 Check your Docker Hub account 
 
 
-##Run image from Kubernetes
+##Run container on Kubernetes
 
+We can create and configure a Kubernetes inside a virtual machine cluster but that takes a lot of expertise and time. We can take advantage of different cloud platforms like:  
 
+`Google`
+* https://cloud.google.com/container-engine/ 
+
+`Azure`
+* https://azure.microsoft.com/en-us/services/container-service/
+
+`AWS`
+* https://aws.amazon.com/es/quickstart/architecture/heptio-kubernetes/
 
 
