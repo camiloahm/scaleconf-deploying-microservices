@@ -8,12 +8,12 @@
 We need to publish our image in a private or public registry
 
 `Public`
-Docker hub https://hub.docker.com/
+* Docker hub https://hub.docker.com/
 
 `Private`
-Azure container registry https://azure.microsoft.com/en-us/services/container-registry/
-AWS container registry https://aws.amazon.com/es/ecr/
-Google Cloud container registry https://cloud.google.com/container-registry/
+* Azure container registry https://azure.microsoft.com/en-us/services/container-registry/
+* AWS container registry https://aws.amazon.com/es/ecr/
+* Google Cloud container registry https://cloud.google.com/container-registry/
 
 This time we're going to use Docker Hub, we need to execute the next commands
 
