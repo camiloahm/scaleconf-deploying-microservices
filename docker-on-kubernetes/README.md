@@ -1,7 +1,7 @@
 ![scaleconf-deploying-microservices](kubernetes.png)
 
 
-#Run and expose container on Kubernates
+#Run and expose container on Kubernates#
 
 ##Publish image in a Docker registry
 
