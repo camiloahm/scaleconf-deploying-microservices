@@ -47,3 +47,25 @@ We can create and configure a Kubernetes inside a virtual machine cluster but th
 * https://aws.amazon.com/es/quickstart/architecture/heptio-kubernetes/
 
 
+#Azure Container Services
+
+Install Azure Commanline Tool 2.0 
+* https://docs.microsoft.com/en-us/cli/azure/install-azure-cli 
+
+Create Kubernetes Cluster 
+```sh
+az login -u <subscriptionuser>
+az acs create --orchestrator-type=kubernetes --resource-group <RESOURCE_GROUP> --name=<CLUSTER_NAME> --dns-prefix=<DNS_PREFIX>
+```
+Install Kubernetes command line tool
+```sh
+az acs kubernetes install-cli
+```
+Connect to a cluster 
+```sh
+az acs kubernetes get-credentials --resource-group=<RESOURCE_GROUP> --name=<CLUSTER_NAME>
+```
+
+
+
+
