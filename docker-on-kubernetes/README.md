@@ -73,6 +73,16 @@ Expose container in a port and public ip
 ```sh
 kubectl expose deployments <name> --port=<port> --type=LoadBalancer
 ```
+Verify pods and services  
+```sh
+kubectl get pods
+kubectl get svc
+kubectl describe pod <podname>
+```
+
+
+
+### Google Cloud Kubernetes
 
 
 
