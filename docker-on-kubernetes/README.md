@@ -65,6 +65,14 @@ Connect to a cluster
 ```sh
 az acs kubernetes get-credentials --resource-group=<RESOURCE_GROUP> --name=<CLUSTER_NAME>
 ```
+Run container 
+```sh
+kubectl run <name> --image <image>
+```
+Expose container in a port and public ip  
+```sh
+kubectl expose deployments <name> --port=<port> --type=LoadBalancer
+```
 
 
 
