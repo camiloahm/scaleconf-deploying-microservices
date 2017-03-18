@@ -1,9 +1,9 @@
 ![scaleconf-deploying-microservices](kubernetes.png)
 
 
-#Run and expose container on Kubernates
+# Run and expose container on Kubernates
 
-##Publish image in a Docker registry
+## Publish image in a Docker registry
 
 We need to publish our image in a private or public registry
 
@@ -33,7 +33,7 @@ $ docker push <username>/scaleconf
 Check your Docker Hub account 
 
 
-##Run container on Kubernetes
+## Run container on Kubernetes
 
 We can create and configure a Kubernetes inside a virtual machine cluster but that takes a lot of expertise and time. We can take advantage of different cloud platforms like:  
 
@@ -47,7 +47,7 @@ We can create and configure a Kubernetes inside a virtual machine cluster but th
 * https://aws.amazon.com/es/quickstart/architecture/heptio-kubernetes/
 
 
-#Azure Container Services
+# Azure Container Services
 
 Install Azure Commanline Tool 2.0 
 * https://docs.microsoft.com/en-us/cli/azure/install-azure-cli 
