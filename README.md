@@ -1,8 +1,8 @@
 ![scaleconf-deploying-microservices](scaleconf.png)
 
-#Deploying microservices to the cloud Medellin 2017
+# Deploying microservices to the cloud Medellin 2017
 
-##Requirements
+## Requirements
 
 * Git https://git-scm.com/downloads  
 * Docker community edition https://www.docker.com/get-docker Notice that If you have Windows 10 or OS X and your machine`s hypervisor is activated, you can use the native version of docker, otherwise you must use Docker Toolbox which has a Virtual Machine with a linux distribution where docker is already installed.  
