@@ -1,8 +1,8 @@
 ![scaleconf-deploying-microservices](docker.png)
 
-#Expose cointainer,build and run image on local machine
+# Expose cointainer,build and run image on local machine
 
-##Building an image
+## Building an image
 We are going to use a super small Linux distribution called Alpine Linux with an Nginx HTTP server.Please check file  "Dockerfile" that is inside this folder
 
 The `FROM` directive references an existing image in the registry.
