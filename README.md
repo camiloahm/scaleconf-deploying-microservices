@@ -6,6 +6,7 @@
 
 * Git https://git-scm.com/downloads  
 * Docker community edition https://www.docker.com/get-docker Notice that If you have Windows 10 or OS X and your machine`s hypervisor is activated, you can use the native version of docker, otherwise you must use Docker Toolbox which has a Virtual Machine with a linux distribution where docker is already installed.  
+* Verify Docker: open a terminal or docker toolbox and execute docker run --rm -p 80:80 nginx then open a browser and test http://localhost/. You must see welcome page from nginx 
 * Docker Hub account https://hub.docker.com/ 
 
 One of these subscriptions
