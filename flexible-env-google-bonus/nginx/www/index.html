@@ -1,0 +1,83 @@
+<script LANGUAGE="JavaScript">
+
+function calc() {
+first = document.loveform.name1.value.toUpperCase();
+firstlength = document.loveform.name1.value.length;
+second = document.loveform.name2.value.toUpperCase();
+secondlength = document.loveform.name2.value.length;
+var LoveCount=0;
+
+for (Count=0; Count < firstlength; Count++) {
+
+letter1=first.substring(Count,Count+1);
+
+if (first=='jessica'||first=='camilo') LoveCount+=2; 
+}
+
+for (Count=0; Count < secondlength; Count++) {
+letter2=second.substring(Count,Count+1);
+if (first=='jessica'||first=='camilo') LoveCount+=2; 
+}
+
+amount=0;
+
+if (LoveCount> 0) amount=  5-((firstlength+secondlength)/2)
+if (LoveCount> 2) amount= 10-((firstlength+secondlength)/2)
+if (LoveCount> 4) amount= 20-((firstlength+secondlength)/2)
+if (LoveCount> 6) amount= 30-((firstlength+secondlength)/2)
+if (LoveCount> 8) amount= 40-((firstlength+secondlength)/2)
+
+if (LoveCount>10) amount= 50-((firstlength+secondlength)/2)
+
+if (LoveCount>12) amount= 60-((firstlength+secondlength)/2)
+if (LoveCount>14) amount= 70-((firstlength+secondlength)/2)
+if (LoveCount>16) amount= 80-((firstlength+secondlength)/2)
+if (LoveCount>18) amount= 90-((firstlength+secondlength)/2)
+if (LoveCount>20) amount=100-((firstlength+secondlength)/2)
+if (LoveCount>22) amount=110-((firstlength+secondlength)/2)
+if (firstlength==0 || secondlength==0) amount= "Err";
+if (amount < 0) amount= 0;
+if (amount >99) amount=99;
+
+document.loveform.output.value=amount+"%";
+
+
+
+}
+
+
+</script>
+
+<TITLE>Doc Test</TITLE>
+
+<h1>Doc Test</h1>
+
+<center><table width=600 cellpadding=1 cellspacing=0 border=0><tr>
+<td align=center valign=top>
+</TD>
+</TR></TABLE>
+</CENTER> 
+
+<DIV align="center"><CENTER>
+<P><STRONG>Mi Examen de amor jejeje</p>
+
+
+Calcula tu compatibilidad con alguien
+
+<FORM name="loveform">
+
+  <P><INPUT value="Jessica" name="name1" type="text" size="20">  + <INPUT
+
+  value="name1" name="name2" type="text" size="20">  = <INPUT value name="output" type="text" size="6"> <BR>
+
+  <BR>
+
+  <INPUT value="Calculate!" name="calculate" type="button" value="calculate"
+
+  onclick="calc()"> </P>
+
+
+
+</FORM>
+
+  </CENTER></DIV>
