@@ -1,0 +1,238 @@
+/*
+First project with sass and bootstrap
+Author: UX Team
+Version: 0.0.1
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Titillium+Web:200,400');
+
+/* Document
+   ========================================================================== */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+	background: linear-gradient(#ABD1EF, #0D4561) fixed;
+	background-color: #0D4561;
+	font-size: 13px;
+	font-weight: 300;
+	font-family: "Open Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* Global
+   ========================================================================== */
+
+::-webkit-input-placeholder {
+    color: #CFD6DC;
+}
+
+::-moz-placeholder {
+    color: #CFD6DC;
+}
+
+:-ms-input-placeholder {
+    color: #CFD6DC;
+}
+
+:-moz-placeholder {
+    color: #CFD6DC;
+}
+
+
+/* Header
+   ========================================================================== */
+
+.bz-logo {
+    background: url("../img/logo-bizagi.svg") no-repeat;
+    color: #FFF;
+    width: 235px;
+    height: 92px;
+    margin: 1rem auto;
+}
+
+.bz-copy-create {
+    background: url("../img/copy-create.svg") center no-repeat;
+    background-size: 90% 100%;
+    height: 62px;
+}
+
+.bz-copy-digital {
+    margin-top: .6rem;
+    font-size: 21px;
+    font-weight: 200;
+    font-family: "Titillium Web", sans-serif;
+    color: #FFF;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .23);
+}
+
+.bz-copy-digital>span {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+/* Sections
+   ========================================================================== */
+
+.main-section,
+.response-section{
+    width: 96%;
+    max-width: 400px;
+    padding: 2rem 3rem;
+    margin: 1.5rem auto 4rem;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: -5px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.response-section{
+    display: none;
+}
+
+.response-section__element--center{
+    text-align: center;
+}
+
+/* Forms
+   ========================================================================== */
+
+.bz-form__element {
+    margin-bottom: 1.9rem;
+}
+
+.bz-form__element--center {
+    text-align: center;
+}
+
+.bz-label {
+    display: block;
+    margin-bottom: .6rem;
+    color: #405263;
+}
+
+.bz-input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #8FADD1;
+    background: transparent;
+    color: #8FADD1;
+}
+
+.bz-input--code {
+    border-bottom-style: dashed;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bz-check {
+    display: block;
+    margin-bottom: 2.5rem;
+}
+
+.bz-check>span {
+    margin-left: .4rem;
+}
+
+.bz-check--color {
+    color: #73808D;
+}
+
+.bz-button {
+    padding: .8rem 1.2rem;
+    border: none;
+    background-color: #385F8C;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.bz-button--block{
+    display: block;
+}
+
+.bz-button:hover {
+    background-color: #3B8CEB;
+}
+
+input[type='file']{
+    width: 1px;
+    height: 1px;
+    border: 0px transparent;
+    color: transparent;
+    position: relative;
+    left: 50px;
+    bottom: -30px;
+    z-index: -1;
+}
+
+#cv-label{
+    max-width: 260px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/* Media Queries
+   ========================================================================== */
+
+@media (min-width: 480px) {
+    .bz-logo {
+        margin: 2rem auto 3rem;
+    }
+    .main-section,
+    .response-section {
+        margin: 3rem auto 8rem;
+        padding: 3rem 4rem;
+    }
+}
+
+
+/* Particles
+   ========================================================================== */
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -10;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles {
+    display: none;
+}

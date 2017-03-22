@@ -1,0 +1,19 @@
+{
+    "css": {
+        "indent_size": 4,
+        "indent_char": " ",
+        "indent_with_tabs": false,
+        "selector_separator_newline": true,
+        "newline_between_rules": true,
+        "preserve_newlines": true,
+        "indent_comments": false,
+        "no_lead_zero": true
+    },
+    "html": {
+        "indent_size": 4,
+        "indent_char": " ",
+        "preserve_newlines": true,
+        "max_preserve_newlines": 1
+    }
+
+}

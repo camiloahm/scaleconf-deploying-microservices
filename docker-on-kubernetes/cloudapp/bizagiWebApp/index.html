@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Bizagi Engineering">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Bizagi Scaleconf</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/main.css">
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body onload="checkStatus()">
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+
+    <header>
+        <h1 class="text-hide bz-logo">Bizagi Engineering</h1>
+        <h2 class="text-hide bz-copy-create">Live. Work. Create. Innovate</h2>
+        <h3 class="bz-copy-digital">Time to <span>Digital</span></h3>
+    </header>
+
+    <section class="main-section">
+        <form class="bz-form" action="http://localhost:8080/api/holder" enctype="multipart/form-data" method="post">
+            <div class="bz-form__element">
+                <label class="bz-label">Your name</label>
+                <input class="bz-input" type="text" name="name" placeholder="" required="true" >
+            </div>
+            <div class="bz-form__element">
+                <label class="bz-label"> E-mail Address</label>
+                <input class="bz-input" type="email" name="email" placeholder="" required="true">
+            </div>
+            <div class="bz-form__element">
+                <label class="bz-label">Linked in profile URL</label>
+                <input class="bz-input" type="url" name="profileUrl" placeholder="https://www.linkedin.com/yourProfile/" required="true">
+            </div>
+            <div class="bz-form__element bz-form__element--center">
+                <input type="file" name="file" id="file" required="true"/>
+                <label for="file" class="bz-button" id="cv-label">Upload your CV</label>
+            </div>
+            <div class="bz-form__element">
+                <label class="bz-label">Insert your code</label>
+                <input class="bz-input bz-input--code" type="text" name="code" placeholder="" required="true">
+            </div>
+            <div class="bz-form__element bz-form__element--center">
+                <label class="bz-check">
+                    <input type="checkbox" name="checkbox" value="check" id="agree" required="true">
+                    <span class="bz-check--color">I Accept Bizagi <a href="TermsAndConditions.html" target="new" class="bz-check--color">Terms and conditions.</a></span>
+                </label>
+                <button class="bz-button" type="submit">Participate</button>
+            </div>
+        </form>
+    </section>
+    <section class="response-section response-section__element--center">
+        <label class=""></label>
+        <a href="index.html" class="bz-button">Come Back!</a>
+    </section>
+
+    <script src="js/vendor/particles.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
