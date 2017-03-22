@@ -80,7 +80,7 @@ kubectl get svc
 kubectl describe pod <podname>
 ```
 
-### Google Cloud Kubernetes
+### Google Cloud Containers
 
 Go to Google cloud and create a new Container Engine https://cloud.google.com/container-engine/docs/quickstart 
 
