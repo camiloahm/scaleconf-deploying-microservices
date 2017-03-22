@@ -80,9 +80,37 @@ kubectl get svc
 kubectl describe pod <podname>
 ```
 
-
-
 ### Google Cloud Kubernetes
+
+Go to Google cloud and create a new Container Engine https://cloud.google.com/container-engine/docs/quickstart 
+
+Click connect and execute get credentials command
+
+```sh
+gcloud container clusters get-credentials <clustername> --zone us-central1-a --project scaleconf-161302
+```
+If you have more than one cluster, you have to select your kubernetes context
+
+```sh
+kubectl config get-contexts
+kubectl config use-context
+```
+Now we can use our kubernetes cluster
+
+Run container 
+```sh
+kubectl run <name> --image <image>
+```
+Expose container in a port and public ip  
+```sh
+kubectl expose deployments <name> --port=<port> --type=LoadBalancer
+```
+Verify pods and services  
+```sh
+kubectl get pods
+kubectl get svc
+kubectl describe pod <podname>
+```
 
 
 
