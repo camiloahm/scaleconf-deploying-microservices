@@ -38,13 +38,13 @@ Check your Docker Hub account
 We can create and configure a Kubernetes inside a virtual machine cluster but that takes a lot of expertise and time. We can take advantage of different cloud platforms like:  
 
 `Google`
-* https://cloud.google.com/container-engine/ 
+* Google containers engine https://cloud.google.com/container-engine/ 
 
 `Azure`
-* https://azure.microsoft.com/en-us/services/container-service/
+* Azure container service https://azure.microsoft.com/en-us/services/container-service/
 
 `AWS`
-* https://aws.amazon.com/es/quickstart/architecture/heptio-kubernetes/
+* Heptio Kubernetes Template https://aws.amazon.com/es/quickstart/architecture/heptio-kubernetes/
 
 
 ### Azure Container Services
