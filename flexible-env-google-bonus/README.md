@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 # Nginx custom runtime for App Engine
-=======
 
 
 # Using Google App Engine Environments to run instances
->>>>>>> 10d00c9515cfbe16d55cf23ab38673dd94e85484
 
 Simple sample of a [nginx](http://nginx.org/) app that runs on [Google App Engine Managed VMs](https://cloud.google.com/appengine) using the [`nginx`](https://hub.docker.com/_/nginx/) offical Docker image.
 
-<<<<<<< HEAD
 ## Details
 =======
 Google app engine flexible environments provides a containers´ PAAS, taking care of many of the low level details such as:
@@ -41,7 +37,7 @@ Let´s deploy our app
 $ gcloud app deploy
 ```
 After accepting, you will see in the output that Google takes care of building your container, storing the image in your private container repository, and then using it to deploy the image on one or more virtual instances.
->>>>>>> 10d00c9515cfbe16d55cf23ab38673dd94e85484
+
 
 + `app.yaml` - Configuration file for App Engine. This just declares the runtime is custom and to use the Dockerfile to run the application.
 + `Dockerfile` - Defines your docker image. It extends from the official nginx Docker image and adds the configuration and static files.
