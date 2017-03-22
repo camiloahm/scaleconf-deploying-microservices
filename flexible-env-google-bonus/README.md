@@ -6,7 +6,6 @@
 Simple sample of a [nginx](http://nginx.org/) app that runs on [Google App Engine Managed VMs](https://cloud.google.com/appengine) using the [`nginx`](https://hub.docker.com/_/nginx/) offical Docker image.
 
 ## Details
-=======
 Google app engine flexible environments provides a containers´ PAAS, taking care of many of the low level details such as:
 
   - Load balancer 
