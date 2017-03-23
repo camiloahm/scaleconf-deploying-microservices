@@ -15,8 +15,8 @@ One of these subscriptions
 * AWS suscription https://aws.amazon.com/
 
 Optional
-*  Google SDK https://cloud.google.com/sdk/
-*  Java 8 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
+*  If your subscription is Google Cloud you must install this CMD SDK https://cloud.google.com/sdk/
+*  If your subscription is Azure you must install this CMD SDK https://docs.microsoft.com/en-us/cli/azure/install-azure-cli  
 
 ## Setup
 * Open a terminal and execute git clone https://github.com/camiloahm/scaleconf-deploying-microservices.git
@@ -62,3 +62,8 @@ Click connect and execute get credentials command
 ```sh
 gcloud container clusters get-credentials <clustername> --zone us-central1-a --project scaleconf-161302
 ```
+
+### Kubernetes on AWS
+
+Heptio Kubernetes Template https://aws.amazon.com/es/quickstart/architecture/heptio-kubernetes/ follow this guide https://s3.amazonaws.com/quickstart-reference/heptio/latest/doc/heptio-kubernetes-on-the-aws-cloud.pdf 
+
