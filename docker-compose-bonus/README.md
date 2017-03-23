@@ -1,8 +1,12 @@
 # Using docker-compose
 
-We first build the container :
 
-This example shows a simple way of running a small node js server listening on port 3000. We´re going to use docker compose for this test. Ve
+This example shows a simple way of running a small node js server listening on port 3000. We´re going to use docker compose for this test. 
+
+Before using docker compose we need to install our package.json with
+```sh
+$ npm install
+```
 
 ```sh
 $ docker-compose build
