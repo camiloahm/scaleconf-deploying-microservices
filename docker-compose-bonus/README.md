@@ -7,6 +7,7 @@ Before using docker compose we need to install our package.json with
 ```sh
 $ npm install
 ```
+Then you can use
 
 ```sh
 $ docker-compose build
