@@ -1,3 +1,5 @@
+![scaleconf-deploying-microservices](compose.png)
+
 # Using docker-compose
 
 
