@@ -22,14 +22,6 @@ Optional
 * Open a terminal and execute git clone https://github.com/camiloahm/scaleconf-deploying-microservices.git
 
 ## Kubernetes configuration
-`Google`
-* Google containers engine https://cloud.google.com/container-engine/
-
-`Azure`
-* Azure container service https://azure.microsoft.com/en-us/services/container-service/
-
-`AWS`
-* Heptio Kubernetes Template https://aws.amazon.com/es/quickstart/architecture/heptio-kubernetes/
 
 `Kubernetes Command Line Tool`
 * KubeCTL Commands https://kubernetes.io/docs/user-guide/kubectl-overview/
