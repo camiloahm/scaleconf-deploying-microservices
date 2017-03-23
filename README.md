@@ -15,7 +15,7 @@ One of these subscriptions
 * AWS suscription https://aws.amazon.com/
 
 Optional
-*  If your subscription is Google Cloud you must install this CMD SDK https://cloud.google.com/sdk/
+*  If your subscription is Google Cloud you must install this CMD SDK https://cloud.google.com/sdk/ then follow follow https://developers.google.com/identity/protocols/application-default-credentials Section “How the application Default Credentials work”
 *  If your subscription is Azure you must install this CMD SDK https://docs.microsoft.com/en-us/cli/azure/install-azure-cli  
 
 ## Setup
