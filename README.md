@@ -53,7 +53,7 @@ Connect to a cluster
 az acs kubernetes get-credentials --resource-group=<RESOURCE_GROUP> --name=<CLUSTER_NAME>
 ```
 
-### Google Cloud Containers
+### Kubernetes Google Cloud Containers
 
 Go to Google cloud and create a new Container Engine https://cloud.google.com/container-engine/docs/quickstart 
 
