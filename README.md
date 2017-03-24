@@ -59,3 +59,7 @@ gcloud container clusters get-credentials <clustername> --zone us-central1-a --p
 
 Heptio Kubernetes Template https://aws.amazon.com/es/quickstart/architecture/heptio-kubernetes/ follow this guide https://s3.amazonaws.com/quickstart-reference/heptio/latest/doc/heptio-kubernetes-on-the-aws-cloud.pdf 
 
+# Slides
+http://slides.com/camiloandreshernandez/scaleconf
+
+
