@@ -2,6 +2,8 @@
 
 # Deploying microservices to the cloud Medellin 2017
 
+* Slides http://slides.com/camiloandreshernandez/scaleconf#/ 
+
 ## Requirements
 
 * Git https://git-scm.com/downloads  
